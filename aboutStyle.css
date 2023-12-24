@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century;
+
+}
+
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.95),rgba(0,0,0,0.65),rgba(0,0,0,0.10),rgba(0,0,0,0)),url(images/aboutbg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+  
+
+}
+
+.main ul{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 30px;
+}
+
+.main ul li{
+    display: inline-block;
+    
+}
+
+.main ul li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+    color: white;
+}
+
+.main ul a:hover{
+    background-color: orangered;
+    color: white;
+}
+
+.main ul li.active a{
+    background-color: orangered;
+    color: white;
+    
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.ab{
+    width: 360px;
+    height: 630px;
+    line-height: 30px;
+    background-color:black;
+    opacity: 0.7;
+    padding:55px ;
+}
+
+.ab h1{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight:100px ;
+}
+
+.ab h2{
+    color: white ;
+    text-align: center;
+    font-weight: 50px;
+    letter-spacing: 10px;
+}
+
+.ab h3{
+    color: white ;
+    text-align: center;
+    font-weight: 50px;
+}
+
+

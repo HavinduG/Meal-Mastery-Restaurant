@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century;
+
+}
+
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.95),rgba(0,0,0,0.65),rgba(0,0,0,0.10),rgba(0,0,0,0)),url(images/backgound.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+  
+
+}
+
+.main ul{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 30px;
+}
+
+.main ul li{
+    display: inline-block;
+    
+}
+
+.main ul li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+    color: white;
+}
+
+.main ul a:hover{
+    background-color: orangered;
+    color: white;
+}
+
+.main ul li.active a{
+    background-color: orangered;
+    color: white;
+    
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    letter-spacing: 10px;
+    color:black;
+    font-size: 70px;
+    font-style: italic;
+}
+
+.title h4{
+    color:red;
+    font-size: 40px;
+    font-style: italic;
+    text-align: left;
+    letter-spacing: 10px;
+}
+
+.wd{
+    width: 250px;
+    height: 630px;
+    background-color:black;
+    opacity: 0.5;
+    padding:55px ;
+    line-height: 25px;
+}
+
+.wd h1{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight:100px ;
+    letter-spacing: 10px;
+}
+
+.wd h4{
+    text-align: justify;
+    color: darkgray;
+    font-weight:normal ;
+
+}
+
+.wd h2{
+    color: antiquewhite;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight:normal ;
+    margin: 40px auto;
+}
+
+.ord {
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid yellow;
+    padding:5px;
+}
+
+.ord a{
+    text-decoration: none;
+    padding: 5px 20px;
+    transition: 0.5 ease;
+    color: yellow;
+ }
+
+ .ord:hover{
+    background-color: yellow;
+
+ }
+
+ .ord a:hover{
+    color: black;
+
+ }
+
+ .login{
+    font-size: 25px;
+ }
+
+ .login a:hover{
+    color: white;
+ }
